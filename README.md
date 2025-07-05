@@ -1,16 +1,18 @@
-## Installation
-
-
-
 ##  Usage
 
 `upspot` lets you upload files to your PC (e.g. from a smartphone) over a local hotspot network.
 
 ###  Basic usage
-
 ```bash
 upspot
-'''
+```
+Starts a local server on port 8080, saves uploaded files to the current directory, and displays a QR code pointing to the upload page.
+
+### Example
+```bash
+upspot 1.1.1.1 8000
+```
+Starts a local server on 1.1.1.1:8000, saves uploaded files to the current directory, and displays a QR code pointing to the upload page.
 
 ## License
 
