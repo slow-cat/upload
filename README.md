@@ -16,7 +16,15 @@ Starts a local server on 1.1.1.1:8000, saves uploaded files to the current direc
 ### Upload from smartphone
 
 
-- Enable **hotspot on your PC** 
+- Enable **hotspot on your PC**
+  - If you use NetworkManager
+    ```bash
+    nmcli device wifi hotspot ifname wlan0 con-name <YOUR-NAME> ssid <YOUR-NAME>  password <YOUR-PASSWORD>
+    ```
+  - Check IP address assigned to interfaces
+    ```bash
+    ip addr show
+    ```
 - Connect your **smartphone** to it
 - Run:
 
