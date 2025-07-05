@@ -1,3 +1,17 @@
+## Installation
+
+
+
+##  Usage
+
+`upspot` lets you upload files to your PC (e.g. from a smartphone) over a local hotspot network.
+
+###  Basic usage
+
+```bash
+upspot
+'''
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)  
